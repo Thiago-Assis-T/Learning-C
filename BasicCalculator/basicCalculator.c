@@ -1,17 +1,16 @@
 #include <stdio.h>
 
 int main(){
-    int num1, num2, sum;
+    double num1, num2;
 
 
     printf("Enter first number: ");
-    scanf("%d", &num1);
+    scanf("%lf", &num1);
 
-    printf("\n");
     printf("Enter a second number: ");
-    scanf("%d", &num2);
+    scanf("%lf", &num2);
 
-    printf("Answer: %d", num1 + num2);
+    printf("Answer: %.2f", num1 + num2);
 
 
     return 0;
