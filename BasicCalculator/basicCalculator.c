@@ -11,10 +11,7 @@ int main(){
     printf("Enter a second number: ");
     scanf("%d", &num2);
 
-    sum = num1 + num2;
-
-    printf("\n");
-    printf("The sum of the two nmbers is: %d", sum);
+    printf("Answer: %d", num1 + num2);
 
 
     return 0;
