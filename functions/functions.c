@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void greeting(char name[]){
+    printf("Hello! %s \n", name);
+}
 int main(){
 
     greeting("Thiago");
@@ -11,6 +14,3 @@ int main(){
     return 0;
 }
 
-void greeting(char name[]){
-    printf("Hello! %s \n", name);
-}
