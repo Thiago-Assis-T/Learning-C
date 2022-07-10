@@ -14,8 +14,12 @@ int max(int num1, int num2, int num3){
     
     return result;
 }
-
 int main(){
+
+
+    // && and
+    // || or
+    // 
 
     printf("%d \n", max(-4, -5, -3));
 
