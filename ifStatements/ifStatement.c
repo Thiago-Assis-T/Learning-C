@@ -12,7 +12,6 @@ int max(int num1, int num2, int num3){
         result = num3;
     }
     
-
     return result;
 }
 
