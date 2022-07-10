@@ -19,7 +19,7 @@ int main(){
 
     // && and
     // || or
-    // 
+    // !  not
 
     printf("%d \n", max(-4, -5, -3));
 
