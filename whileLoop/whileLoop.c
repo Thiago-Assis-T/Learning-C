@@ -12,6 +12,16 @@ int main(){
         index++;
     }
 
+    index = 1;
+
+    do {
+
+        printf("%d\n", index);
+
+        index++;
+    }while(index != 11);
+
+
 
     return 0;
 }
