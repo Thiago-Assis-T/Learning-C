@@ -4,7 +4,7 @@
 int main(){
 
     FILE * fpointer = fopen("names", "w");
-    fprintf(fpointer, "Thiago\nMariana\nJoão Matheus\nBernardo\n");
+    fprintf(fpointer, "James\nMarie\nJohn\nBelathor\n");
     fclose(fpointer);
 
 
